@@ -1,0 +1,32 @@
+# Maven build output
+target/
+dependency-reduced-pom.xml
+
+# IDEs and Editors
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+nb-configuration.xml
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Sensitive Database Credentials (Local Only)
+db.properties
+src/main/resources/db.properties
+*.env
+
+# Logs
+*.log
+
+# Agent Skills
+.agents/
+.claude/
+agent/
+skills-lock.json

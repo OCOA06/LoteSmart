@@ -1,0 +1,9 @@
+# ============================================================================
+# LoteSmart Enterprise - Plantilla de Configuración de Base de Datos
+# ============================================================================
+# Para uso local, copia este archivo como 'db.properties' y define tus credenciales reales:
+# cp db.properties.example db.properties
+
+db.url=jdbc:postgresql://aws-1-us-west-2.pooler.supabase.com:5432/postgres?sslmode=require
+db.user=postgres.TU_PROJECT_REF
+db.password=TU_PASSWORD_AQUI
